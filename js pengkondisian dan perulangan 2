@@ -1,0 +1,11 @@
+let i = 5;
+while (i >= 1) {
+  let bintang = "";
+  let j = 1;
+  while (j <= i) {
+    bintang += "*";
+    j++;
+  }
+  console.log(bintang);
+  i--;
+}
